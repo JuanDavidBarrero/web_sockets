@@ -11,8 +11,19 @@
     <h1>Hola mundo</h1>
     <hr>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis voluptates deleniti reprehenderit hic officia labore porro. Sequi, ex repudiandae consequuntur optio laudantium adipisci ab ratione magnam! Aspernatur inventore temporibus ut?</p>
-    
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, neque, consectetur ipsa quaerat dignissimos commodi, placeat veritatis reprehenderit asperiores alias doloribus! Vel itaque eius, recusandae harum voluptatibus non id illo eligendi debitis! Fugiat delectus doloribus explicabo tempora nam maiores saepe est, voluptate quisquam, libero aliquid consequuntur reiciendis iusto expedita voluptates repellendus sit. Tenetur molestias cumque saepe dignissimos dolorum obcaecati amet.</p>
+    <p> Server Status:
+        <span id="lblOnline" class="success"> Online </span>    
+        <span id="lblOffline" class="error">  Offline </span>    
+    </p>
+
+    <div class="form">
+
+        <input type="text" name="texto" id="txtMenssage" placeholder="Ingrese su texto aca">
+        <button id="btnEnviar"> Enviar </button>
+
+    </div>
+
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="js/sockets-client.js"></script>
 </body>
 </html>
