@@ -53,8 +53,8 @@ button {
     font-size: 15px;
 }
 
-.button:active {
-    transform:  scale(0.7);
+button:active {
+    transform:  scale(0.95);
 }
 
 
